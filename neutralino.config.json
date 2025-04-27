@@ -1,0 +1,41 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/frontend/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*",
+    "events.on",
+    "app.exit",
+    "debug.log",
+    "os.execCommand"
+  ],
+  "modes": {
+    "window": {
+      "title": "myapp",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "icon": "/frontend/public/icon.png"
+    }
+  },
+  "cli": {
+    "binaryName": "myapp",
+    "resourcesPath": "/frontend/dist/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "6.0.0",
+    "clientVersion": "6.0.0",
+    "frontendLibrary": {
+      "projectPath": "/frontend/",
+      "patchFile": "/frontend/index.html",
+      "devUrl": "http://localhost:5173",
+      "initCommand": "pnpm install",
+      "devCommand": "pnpm dev",
+      "buildCommand": "pnpm build"
+    }
+  }
+}
