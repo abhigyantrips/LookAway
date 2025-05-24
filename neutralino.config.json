@@ -15,7 +15,7 @@
   ],
   "modes": {
     "window": {
-      "title": "myapp",
+      "title": "Look Away",
       "width": 800,
       "height": 500,
       "minWidth": 400,
@@ -24,7 +24,7 @@
     }
   },
   "cli": {
-    "binaryName": "myapp",
+    "binaryName": "lookaway",
     "resourcesPath": "/frontend/dist/",
     "extensionsPath": "/extensions/",
     "binaryVersion": "6.0.0",
@@ -32,7 +32,7 @@
     "frontendLibrary": {
       "projectPath": "/frontend/",
       "patchFile": "/frontend/index.html",
-      "devUrl": "http://localhost:5173",
+      "devUrl": "http://localhost:3000",
       "initCommand": "pnpm install",
       "devCommand": "pnpm dev",
       "buildCommand": "pnpm build"
