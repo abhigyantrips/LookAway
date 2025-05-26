@@ -11,7 +11,8 @@
     "events.on",
     "app.exit",
     "debug.log",
-    "os.execCommand"
+    "os.execCommand",
+    "os.setTray"
   ],
   "modes": {
     "window": {
